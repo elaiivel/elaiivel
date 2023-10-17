@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    <title>Buttons</title>
+</head>
+<body>
+
+    <h1 class="center purple-text text-darken-3">Buttons</h1>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p>
+            There are 3 main button types described in material design. The raised button is a standard button that signify actions and seek to give depth to a mostly flat page. The floating circular action button is meant for very important functions. Flat buttons are usually used within elements that already have depth like cards or modals.
+        </p>
+        <!--Raised-->    
+        <h3 class="purple-text">Raised</h3>
+        <a href="" class="waves-effect waves-light btn blue "> SHOP NOW</a>
+        <a class="waves-effect waves-light btn purple"><i class="fa-solid fa-image"></i> OUR ALBUMS </a>
+        <a class="waves-effect waves-light btn yellow black-text"><i class="right fa-solid fa-cart-plus"></i> ADD TO CART</a>
+        <br>
+        <!--Floating-->
+        <h3 class="purple-text">Floating</h3>
+        <a class="btn-floating btn-large waves-effect waves-light red"><i class="material-icons">add</i></a>
+        <br>
+        <!--Flat-->
+        <h3 class="purple-text">Flat</h3>
+        <a class="waves-effect waves-purple btn-flat">CLICK ME</a>
+        <!--Floating Action Button-->
+        <div class="fixed-action-btn click-to-toggle">
+            <a class="btn-floating btn-large purple darken-2">
+                <i class="fa-solid fa-headset"></i>
+            </a>
+
+            <ul>
+                <li>
+                    <a href="tel:+639991687577" class="btn-floating btn green" target="_blank">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="sms:+639991687577" class="btn-floating btn yellow darken-1" target="_blank">
+                        <i class="fa-solid fa-comment-dots"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=masarejfs@gmail.com&su=FLOWER%20INQUIRY&tf=cm" class="btn-floating btn red" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://m.me/masarej" class="btn-floating btn blue"target="_blank">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+
+
+    </div>
+    
+
+    
+    
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/fed3ef3893.js" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+        
+        <!--Floating action BTN-->
+        <script>
+            $(document).ready(function(){
+                $('.fixed-action-btn').floatingActionButton({
+                    toolbarEnabled: false,
+                    hoverEnabled: false,
+                    direction: 'left'
+
+                });
+            });
+        </script>
+</body>
+</html>

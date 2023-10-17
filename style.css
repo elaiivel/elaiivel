@@ -1,0 +1,118 @@
+
+h1{
+    margin-top: 4%;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    font-family: 'Amsterdam Two_ttf', serif;
+    font-style: italic;
+}
+
+h2{
+    margin-bottom: 5%;
+    letter-spacing: 0.06em;
+    font-weight: bold;
+    font-family: 'Amsterdam Two_ttf', serif;
+    font-style: italic;
+}
+
+
+h3, h4, h5{
+    font-weight: bold;
+    font-family:'Tempus Sans ITC', sans-serif;
+}
+
+h6{
+    font-weight: normal;
+    font-family:'Tempus Sans ITC', sans-serif
+}
+
+p{
+    font-weight: normal;
+    font-family: sans-serif;
+}
+
+blockquote{
+    font-weight: bold;
+    font-family: 'Georgia', serif;
+    font-style: italic;
+    border-color: rgb(238, 18, 187)
+}
+
+table.striped>tbody>tr:nth-child(odd) {
+    background-color: rgb(222, 184, 250);
+}
+
+table>thead>th{
+    background-color: azure;
+}
+
+nav.nav-extended{
+    background-color: rgb(86, 2, 97);
+}
+
+ul.sidenav.sidenav-fixed li.logo {
+    text-align: center;
+    margin-top: 32px;
+    margin-bottom: 100px
+}
+
+.sidenav{
+    background-color:rgb(211, 135, 250)
+}
+
+#logo-container {
+    height: 140px;
+    margin-bottom: 32px
+}
+
+.collapsible-body li>a,.dropdown-content li>span {
+    color: white
+}
+
+.dropdown-content li>a,.dropdown-content li>span {
+    font-size: 12px;
+    color: #fcfafc;
+    display: block;
+}
+
+.dropdown-content li:hover,.dropdown-content li.active {
+    background-color: #fc9fd8
+}
+
+.dropdown-content li{
+    background-color: #610248
+}
+
+nav ul a {
+    -webkit-transition: background-color .3s;
+    transition: background-color .3s;
+    font-size: 1rem;
+    color: #fac9f9;
+    display: block;
+    padding: 0 15px;
+    cursor: pointer
+}
+
+.keme {
+    font-weight: 500;
+    font-size: 12px;
+    font-style: italic;
+    position: relative;
+    left: 50px;
+}
+
+.adskeme{
+    position: relative;
+    left: 78px;
+    font-size: 10px;
+    color: #fd0083
+}
+
+.image-keme{
+    margin: 15px 50px 20px;
+}
+
+.side-keme{
+    position: sticky;
+    top: 20px;
+}

@@ -1,0 +1,272 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <!-- Material Icons -->
+        <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+        <!-- Font awesome -->
+        <script src="https://kit.fontawesome.com/fed3ef3893.js" crossorigin="anonymous"></script>
+        <!-- Font awesome cdnjs -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+        <!-- Compiled and minified CSS -->
+        <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+        <!-- Custom CSS -->
+        <link rel="stylesheet" href="style.css">
+    <title>Navbar & Sidenav</title>
+</head>
+
+<body>       
+<!--Navbar-->
+<div class="navbar-fixed">   
+    <nav class="nav-extended">
+        <div class="container">
+            <div class="nav-wrapper">
+                <a href="https://www.facebook.com/masarej" class="brand-logo" target="_blank"> <img src="pics/logo2.png" class="responsive-img logo" alt="">
+                </a>
+                <a href="#"  class="sidenav-trigger" data-target="mobile-demo">
+                    <i class="fa-solid fa-bars"></i></a>
+                <ul id="nav-mobile" class="right hide-on-med-and-down">
+                    <li class="active">
+                        <a href="https://m.me/masarej" target="_blank"><i class="fa-brands fa-facebook-messenger"></i></a>
+                    </li>
+                    <li class="active">
+                        <a href="https://maps.app.goo.gl/SU9nuAs1xfPCwGfU7" target="_blank"><i class="fa-solid fa-location-dot"></i></a>
+                    </li>
+                    <li class="active">
+                        <a href="https://www.youtube.com/@masarejflowershop4464" target="_blank"><i class="fa-brands fa-youtube"></i></a>
+                    </li>
+                    <!--Dropdown Trigger-->
+                    <li>
+                        <a href="#" class="dropdown-trigger" data-target="dropdown1"><i class="fa-regular fa-user"></i><i class="material-icons right">arrow_drop_down</i></a>
+                    </li>
+                </ul>
+            </div>
+
+            <!--Dropdown Structure-->
+            <ul id="dropdown1" class="dropdown-content">
+                <li>
+                    <a href="#!">Sign in</a>
+                </li>
+                <li>
+                    <a href="#!">My Account</a>
+                </li>
+                <li>
+                    <a href="#!">My Orders</a>
+                </li>
+                <li class="divider">
+                </li>
+                <li>
+                    <a href="#!">Delivery</a>
+                </li>
+            </ul>
+
+            <!--Nav Content-->
+            <div class="nav-content">
+                <ul class="tabs tabs-transparent">
+                    <li class="tab"><a href="#test1">Same Day Delivery</a></li>
+                    <li class="tab"><a href="#test2">Flowers by Occasion</a></li>
+                    <li class="tab"><a href="#test3">Luxury Flowers</a></li>
+                    <li class="tab"><a href="#test4">Upcoming events</a></li>
+                </ul>
+            </div>
+            
+        </div>
+    </nav>
+</div>
+
+    <!-- Sidenav Structure-->
+    <ul class="sidenav" id="mobile-demo">
+        <li class="logo">
+            <a id="logo-container" href="https://www.facebook.com/masarej" class="brand-logo center" target="_blank"> <img src="pics/logo1.png" class="responsive-img logo" alt="">
+                <div class="card-content center">
+                    <a class="waves-effect waves-light btn purple"><i class="right fa-solid fa-cart-plus"></i> SHOP NOW </a>
+                </div>
+            </a>
+        </li>
+    <!-- Collapsible -->
+    <ul class="collapsible">
+        <li class="active">
+            <div class="collapsible-header"> Sign In <i class="fa-solid fa-caret-down right"></i>
+            </div>
+            <div class="purple collapsible-body">
+                <ul>
+                    <li>
+                        <a href="#!">My Account</a>
+                    </li>
+                    <li>
+                        <a href="#!">My Orders</a>
+                    </li>
+                    <li>
+                        <a href="#!">Delivery</a>
+                    </li>
+                </ul>
+            </div>
+        </li>
+    </ul>    
+        
+        <li>
+            <a href="https://m.me/masarej" target="_blank">Message Us</a>
+        </li>
+        <li>
+            <a href="https://maps.app.goo.gl/SU9nuAs1xfPCwGfU7" target="_blank">Visit Us</i></a>
+        </li>
+        <li>
+            <a href="https://www.youtube.com/@masarejflowershop4464" target="_blank">Subscribe</a>
+        </li>
+      </ul>
+
+    <!-- Tabs structure -->
+    <div class="row">
+        <div id="test1" class="col s12">
+            <div class="center card">
+                <div class="card image">
+                    <img src="pics/2.png" alt="" class="responsive-img">
+                    <div class="card-content">
+                        <a class="waves-effect waves-light btn purple"><i class="right fa-solid fa-cart-plus"></i> QUICK BUY</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="test2" class="col s12">
+            <div class="center card">
+                <div class="card image">
+                    <img src="pics/3.png" alt="" class="responsive-img">
+                    <div class="card-content">
+                        <a class="waves-effect waves-yellow btn-flat blue-text">BOOK NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div id="test3" class="col s12">
+            <div class=" center card">
+                <div class="card image">
+                    <img src="pics/4.png" alt="" class="responsive-img">
+                    <div class="card-content">
+                        <a class="waves-effect waves-light btn purple"><i class="right fa-solid fa-cart-plus"></i> QUICK BUY</a>
+                    </div>                
+                </div>
+            </div>
+        </div>
+        <div id="test4" class="col s12">
+            <div class="center card">
+                <div class="card image">
+                    <img src="pics/5.png" alt="" class="responsive-img">
+                    <div class="card-content">
+                        <a class="waves-effect waves-yellow btn-flat brown-text">RESERVE NOW</a>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <!--Floating Action Button-->
+        <div class="fixed-action-btn click-to-toggle">
+            <a class="btn-floating btn-large purple darken-2">
+                <i class="fa-solid fa-headset"></i>
+            </a>
+
+            <ul>
+                <li>
+                    <a href="tel:+639991687577" class="btn-floating btn green" target="_blank">
+                        <i class="fa-solid fa-phone-volume"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="sms:+639991687577" class="btn-floating btn yellow darken-1" target="_blank">
+                        <i class="fa-solid fa-comment-dots"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://mail.google.com/mail/u/0/?fs=1&to=masarejfs@gmail.com&su=FLOWER%20INQUIRY&tf=cm" class="btn-floating btn red" target="_blank">
+                        <i class="fa-solid fa-envelope"></i>
+                    </a>
+                </li>
+                <li>
+                    <a href="https://m.me/masarej" class="btn-floating btn blue"target="_blank">
+                        <i class="fa-brands fa-facebook-messenger"></i>
+                    </a>
+                </li>
+            </ul>
+        </div>
+        
+    </div>
+    <br>
+    <h2 class="purple-text text-darken-3 center">Masarej Flower Shop</h2>
+    <div class="divider"></div>
+    <br>
+    <div class="container">
+        <p class="center">Send Flowers Online | Order Now For Bataan Flower Delivery | 7 Day Freshness Guarantee</p>
+
+        <div class="container center">
+            <a href="" class="waves-effect waves-light btn purple "> SHOP NOW</a>
+            <a class="waves-effect waves-light btn purple"><i class="fa-solid fa-image"></i> OUR ALBUMS </a>
+            <a class="waves-effect waves-light btn orange darken-4"><i class="right fa-solid fa-cart-plus"></i> ADD TO CART</a>
+        </div>       
+        <br>
+
+    <br>
+    <!--Slider-->
+    <div class="slider">
+        <ul class="slides responsive-img">
+            <li>
+                <img src="pics/1.png" alt="" class="responsive-img">
+                <div class="caption center-align">
+                </div>                    
+            </li>
+            <li>
+                <img src="pics/fs.png" alt="" class="responsive-img">
+                <div class="caption right-align">
+                </div>                    
+            </li>
+            <li>
+                <img src="pics/fs1.png" alt="" class="responsive-img">
+                <div class="caption center-align">
+                </div>                    
+            </li>
+            <li>
+                <img src="pics/fs2.png" alt="" class="responsive-img">
+                <div class="caption left-align">
+                </div>                    
+        </ul>
+    </div>
+    
+        <h4 class="purple-text text-lighten-2">Beautiful Flowers Delivered</h4>
+        <p>A flower delivery is more than a simple present, to send flowers to someone is to send a beautiful gift but also to send your best wishes, your kind thoughts and your thoughtful words. For any occasion, having flowers delivered can make a special day remembered for years to come, from welcoming a beautiful new addition to the family to congratulating that special someone on a fantastic new job or sending thank you flowers in appreciation of the help someone has given you that you couldn’t have managed without. Thanks to our expert florists using only the finest and freshest flowers direct from the grower, we are able to guarantee the freshness of your stems for a minimum of seven days meaning your thoughtful gift will be enjoyed for as long as possible and you can be sure that it will be remembered for even longer.</p>
+
+    </div>
+
+
+
+        <!-- Jquery CDN -->
+        <script src="https://code.jquery.com/jquery-3.7.1.min.js" integrity="sha256-/JqT3SQfawRcv/BIHPThkBvs0OEvtFFmqPF/lYI/Cxo=" crossorigin="anonymous"></script>
+        <!-- Compiled and minified JavaScript -->
+        <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+        <script>
+             $(document).ready(function(){
+                // Tabs init
+                    $('.tabs').tabs();
+                // Sidenav init
+                $('.sidenav').sidenav({
+                    edge: 'right',
+                    inDuration: 800,
+                    outDuration: 500
+                });
+                // Dropdown init
+                $(".dropdown-trigger").dropdown({
+                    hover: false
+                });
+                // Collapsible init
+                $('.collapsible').collapsible();
+                // Slider init
+                $('.slider').slider({
+                    height: 600,
+                    interval: 3000            
+                });
+                // Floating Action Btn init
+                $('.fixed-action-btn').floatingActionButton({
+                }); 
+            });
+        </script>
+
+</body>
+</html>
